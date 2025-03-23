@@ -37,5 +37,6 @@ The project follows **Clean Architecture** principles:
 ## Preview
 <video controls width="600">
   <source src="https://github.com/rixon08/test_create_task/blob/master/Screen%20Record.mp4" type="video/mp4">
+   Your browser does not support the video tag.
 </video>
 
