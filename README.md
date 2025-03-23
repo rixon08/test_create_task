@@ -7,6 +7,8 @@ The project follows **Clean Architecture** principles:
 - `data` → Handles database & repository
 - `domain` → Contains use cases & business logic
 - `presentation` → UI (Activity + ViewModel)
+- `di` → Dependency Injection (Koin setup)
+- `utils` → Utility functions (extensions and constants)
 
 ## 🚀 Features
 ✅ Add, Edit, Delete tasks  
@@ -28,4 +30,6 @@ The project follows **Clean Architecture** principles:
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/task-list-app.git
-   cd task-list-app
+2. Open the project in **Android Studio** (latest version recommended).
+3. Ensure you have the required dependencies installed.
+4. Run the app using an emulator or a physical device.
