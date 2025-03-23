@@ -21,7 +21,7 @@ The project follows **Clean Architecture** principles:
 - **Room Database** (Local Storage)
 - **RecyclerView** (Task List)
 - **LiveData + ViewModel** (State Management)
-- **WorkManager** (Notifications)
+- **AlarmManager** (Notifications)
 - **Koin** (Dependency Injection)
 
 ## 🔧 How to Run the App
