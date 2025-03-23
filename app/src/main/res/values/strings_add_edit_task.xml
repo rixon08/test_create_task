@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_bar_name_add_task">Add Task</string>
+    <string name="app_bar_name_edit_task">Edit Task</string>
+
     <string name="hint_task_name">Task Name</string>
     <string name="hint_deadline">Deadline (yyyy-MM-dd HH:mm)</string>
     <string name="label_completed">Completed</string>

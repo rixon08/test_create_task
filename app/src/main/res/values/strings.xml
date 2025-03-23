@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Task</string>
 
-    <string name="add_task_menu">Add Task</string>
+    <string name="notification_minutes_left">You have 10 minutes left for task "%1$s"!</string>
+    <string name="notification_deadline_reminder">Deadline Reminder!</string>
+
 
 </resources>

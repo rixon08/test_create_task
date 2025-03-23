@@ -63,6 +63,8 @@ class AddEditTaskActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add_edit_task)
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
+
+        toolbar.title = if (task == null) getString(R.string.app_bar_name_add_task) else getString(R.string.app_bar_name_edit_task)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         toolbar.setNavigationOnClickListener {

@@ -6,6 +6,7 @@ import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.media.RingtoneManager
 import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
@@ -48,15 +49,18 @@ class TaskAlarmReceiver : BroadcastReceiver() {
             notificationManager.createNotificationChannel(channel)
         }
 
+        val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+
         val notification = NotificationCompat.Builder(context, channelId)
-            .setContentTitle("Deadline Reminder!")
-            .setContentText("Task \"$taskName\" kurang dari 10 menit lagi!")
+            .setContentTitle(context.getString(R.string.notification_deadline_reminder))
+            .setContentText(context.getString(R.string.notification_minutes_left, taskName))
             .setSmallIcon(R.drawable.ic_launcher_foreground)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .setSound(defaultSoundUri)
             .setContentIntent(pendingIntent)
+            .setAutoCancel(true)
             .build()
 
         notificationManager.notify(taskId, notification)
-        Log.d("notification", Calendar.getInstance().time.toString())
     }
 }
