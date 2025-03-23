@@ -41,6 +41,7 @@ class TaskRepositoryImpl(private val dao: TaskDao, private val taskAlarmSchedule
     override suspend fun updateTask(task: TaskModel) {
         dao.updateTask(task.toEntity())
         if (!task.isCompleted) taskAlarmScheduler.scheduleTaskNotification(task)
+        else taskAlarmScheduler.scheduleCancel(task)
     }
 
     override suspend fun getTasksSortedByClosestDeadline(): List<TaskModel> {

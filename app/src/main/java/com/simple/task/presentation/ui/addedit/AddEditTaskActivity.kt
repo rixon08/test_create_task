@@ -149,7 +149,7 @@ class AddEditTaskActivity : AppCompatActivity() {
                             AddEditTaskKeyConstants.TASK_COMPLETED,
                             cbIsCompleted.isChecked
                         )
-                        setResult(RESULT_OK)
+                        setResult(RESULT_OK, intent)
                         finish()
                     }
                 }
