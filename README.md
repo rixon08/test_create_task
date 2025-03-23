@@ -33,3 +33,7 @@ The project follows **Clean Architecture** principles:
 2. Open the project in **Android Studio** (latest version recommended).
 3. Ensure you have the required dependencies installed.
 4. Run the app using an emulator or a physical device.
+
+## Preview
+<br><br><img src="https://github.com/rixon08/test_create_task/blob/master/record.gif" width="300">
+
