@@ -7,6 +7,8 @@ The project follows **Clean Architecture** principles:
 - `data` → Handles database & repository
 - `domain` → Contains use cases & business logic
 - `presentation` → UI (Activity + ViewModel)
+- `di` → Dependency Injection (Koin setup)
+- `utils` → Utility functions (extensions and constants)
 
 ## 🚀 Features
 ✅ Add, Edit, Delete tasks  
