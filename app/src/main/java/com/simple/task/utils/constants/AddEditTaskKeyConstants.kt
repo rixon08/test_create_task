@@ -1,4 +1,4 @@
-package com.simple.task.constants
+package com.simple.task.utils.constants
 
 class AddEditTaskKeyConstants {
     companion object {

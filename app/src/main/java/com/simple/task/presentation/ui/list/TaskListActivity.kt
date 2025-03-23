@@ -24,7 +24,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.textfield.TextInputEditText
 import com.simple.task.R
-import com.simple.task.constants.AddEditTaskKeyConstants
+import com.simple.task.utils.constants.AddEditTaskKeyConstants
 import com.simple.task.domain.model.TaskModel
 import com.simple.task.presentation.ui.addedit.AddEditTaskActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel

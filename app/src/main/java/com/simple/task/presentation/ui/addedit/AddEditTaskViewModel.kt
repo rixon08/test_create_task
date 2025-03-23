@@ -7,11 +7,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.simple.task.constants.AddEditTaskKeyConstants
+import com.simple.task.utils.constants.AddEditTaskKeyConstants
 import com.simple.task.domain.model.TaskModel
 import com.simple.task.domain.usecase.AddTaskUseCase
 import com.simple.task.domain.usecase.EditTaskUseCase
-import com.simple.task.extensions.toLong
+import com.simple.task.utils.extensions.toLong
 import com.simple.task.presentation.ui.addedit.AddEditTaskActivity.Companion
 import kotlinx.coroutines.launch
 import java.util.Date

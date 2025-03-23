@@ -1,4 +1,4 @@
-package com.simple.task.extensions
+package com.simple.task.utils.extensions
 
 import java.util.Date
 

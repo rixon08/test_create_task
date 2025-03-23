@@ -5,8 +5,8 @@ import com.simple.task.data.local.TaskDao
 import com.simple.task.data.notification.TaskAlarmScheduler
 import com.simple.task.domain.model.TaskModel
 import com.simple.task.domain.repository.TaskRepository
-import com.simple.task.extensions.toDomain
-import com.simple.task.extensions.toEntity
+import com.simple.task.utils.extensions.toDomain
+import com.simple.task.utils.extensions.toEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

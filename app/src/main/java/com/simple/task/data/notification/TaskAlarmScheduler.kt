@@ -6,10 +6,10 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.simple.task.constants.BroadcastConstants
+import com.simple.task.utils.constants.BroadcastConstants
 import com.simple.task.domain.model.TaskModel
-import com.simple.task.extensions.toDate
-import com.simple.task.extensions.toStringDateFormat
+import com.simple.task.utils.extensions.toDate
+import com.simple.task.utils.extensions.toStringDateFormat
 import com.simple.task.presentation.receiver.TaskAlarmReceiver
 
 class TaskAlarmScheduler(private val context: Context) {

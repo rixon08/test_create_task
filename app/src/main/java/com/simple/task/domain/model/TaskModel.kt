@@ -1,6 +1,6 @@
 package com.simple.task.domain.model
 
-import com.simple.task.extensions.toStringDateFormat
+import com.simple.task.utils.extensions.toStringDateFormat
 import java.util.Date
 
 

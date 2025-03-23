@@ -1,4 +1,4 @@
-package com.simple.task.extensions
+package com.simple.task.utils.extensions
 
 import com.simple.task.data.local.TaskEntity
 import com.simple.task.domain.model.TaskModel

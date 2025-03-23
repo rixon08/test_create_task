@@ -20,11 +20,11 @@ import androidx.lifecycle.ViewModel
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.simple.task.R
-import com.simple.task.constants.AddEditTaskKeyConstants
+import com.simple.task.utils.constants.AddEditTaskKeyConstants
 import com.simple.task.domain.model.TaskModel
-import com.simple.task.extensions.toDate
-import com.simple.task.extensions.toLong
-import com.simple.task.extensions.toStringDateFormat
+import com.simple.task.utils.extensions.toDate
+import com.simple.task.utils.extensions.toLong
+import com.simple.task.utils.extensions.toStringDateFormat
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.text.SimpleDateFormat
 import java.util.Calendar
