@@ -149,13 +149,13 @@ class TaskListActivity : AppCompatActivity() {
                 val taskToDelete = taskAdapter.currentList[position]
 
                 AlertDialog.Builder(this@TaskListActivity)
-                    .setTitle("Konfirmasi Hapus")
-                    .setMessage("Apakah Anda yakin ingin menghapus task ini?")
-                    .setPositiveButton("Ya") { _, _ ->
+                    .setTitle(getString(R.string.title_dialog_delete_task))
+                    .setMessage(getString(R.string.content_dialog_delete_task, taskToDelete.name))
+                    .setPositiveButton(getString(R.string.button_yes_dialog_delete_task)) { _, _ ->
                         taskViewModel.deleteTask(taskToDelete)
                         removeTaskNotification(taskToDelete.id)
                     }
-                    .setNegativeButton("Batal") { dialog, _ ->
+                    .setNegativeButton(getString(R.string.button_cancel_dialog_delete_task)) { dialog, _ ->
                         dialog.dismiss()
                         taskAdapter.notifyItemChanged(position)
                     }

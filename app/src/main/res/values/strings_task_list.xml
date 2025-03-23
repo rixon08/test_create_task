@@ -2,4 +2,10 @@
 <resources>
     <string name="add_task_menu">Add Task</string>
     <string name="hint_search_task">Search Task Name...</string>
+
+    <string name="title_dialog_delete_task">Delete Confirmation</string>
+    <string name="content_dialog_delete_task">Are you sure you want to delete the task "%1$s"?</string>
+
+    <string name="button_yes_dialog_delete_task">Yes</string>
+    <string name="button_cancel_dialog_delete_task">Cancel</string>
 </resources>

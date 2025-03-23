@@ -4,7 +4,7 @@
     <string name="app_bar_name_edit_task">Edit Task</string>
 
     <string name="hint_task_name">Task Name</string>
-    <string name="hint_deadline">Deadline (yyyy-MM-dd HH:mm)</string>
+    <string name="hint_deadline">Deadline</string>
     <string name="label_completed">Completed</string>
     <string name="label_save">Save</string>
 
