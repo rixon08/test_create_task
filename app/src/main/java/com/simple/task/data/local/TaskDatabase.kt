@@ -23,8 +23,8 @@ abstract class TaskDatabase: RoomDatabase() {
                         TaskDatabase::class.java,
                         "task_db"
                     )
-                        .fallbackToDestructiveMigration() // 🚀 Menangani perubahan schema
-                        .build()
+                    .fallbackToDestructiveMigration()
+                    .build()
 
                     INSTANCE = instance
                     Log.d("TaskDatabase", "Database instance created ✅")

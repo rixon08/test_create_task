@@ -33,8 +33,6 @@ import java.util.Locale
 
 class AddEditTaskActivity : AppCompatActivity() {
 
-//    private lateinit var edtTaskName: EditText
-//    private lateinit var edtDeadline: EditText
     private lateinit var edtTaskName: TextInputEditText
     private lateinit var edtDeadline: TextInputEditText
     private lateinit var taskNameInputLayout: TextInputLayout
