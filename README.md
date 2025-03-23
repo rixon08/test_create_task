@@ -35,8 +35,4 @@ The project follows **Clean Architecture** principles:
 4. Run the app using an emulator or a physical device.
 
 ## Preview
-<video controls width="600">
-  <source src="https://github.com/rixon08/test_create_task/blob/master/Screen%20Record.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
-
+[🎥 Tonton Video](https://raw.githubusercontent.com/rixon08/test_create_task/blob/master/Screen%20Record.mp4)
