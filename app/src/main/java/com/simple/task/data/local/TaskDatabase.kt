@@ -33,7 +33,8 @@ abstract class TaskDatabase: RoomDatabase() {
                     Log.e("TaskDatabase", "Database creation failed ❌", e)
                     throw e
                 }
-        }   }
+            }
+        }
     }
 
 }
