@@ -35,5 +35,5 @@ The project follows **Clean Architecture** principles:
 4. Run the app using an emulator or a physical device.
 
 ## Preview
-<br><br><img src="https://github.com/rixon08/test_sprint_asia/blob/master/recor.gif" width="300">
+<br><br><img src="https://github.com/rixon08/test_create_task/blob/master/record.gif" width="300">
 
