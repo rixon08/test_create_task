@@ -35,4 +35,4 @@ The project follows **Clean Architecture** principles:
 4. Run the app using an emulator or a physical device.
 
 ## Preview
-[🎥 Tonton Video](https://github.com/rixon08/test_create_task/blob/master/Screen%20Record.mp4)
+[🎥 Tonton Video](https://raw.githubusercontent.com/rixon08/test_create_task/master/Screen%20Record.mp4)
